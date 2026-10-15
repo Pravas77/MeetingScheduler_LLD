@@ -32,7 +32,7 @@ public class Main {
 
         Thread thread2 = new Thread(() -> {
             meetingScheduler.scheduleMeeting(
-                    user1,
+                    user2,
                     List.of(user1,user2,user3),
                     LocalDateTime.of(2026,1,1,9,30,0),
                     LocalDateTime.of(2026,1,1,10,30,0));
